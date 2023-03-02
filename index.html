@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <title>Typicode Todos</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Typicode Todos</h1>
+      </header>
+      <main>
+        <form id="todo-form">
+          <input type="text" id="title" placeholder="Add Todo..." />
+          <button type="submit">
+            <i class="fa-soled fa-plus"></i>
+            Add
+          </button>
+        </form>
+        <br />
+        <input type="text" id="filter" />
+
+        <ul id="item-list" class="items">
+          <!-- <li>
+            Apples
+            <button><i class="fa-solid fa-xmark"></i></button>
+          </li>
+          <li>
+            Mandarins
+            <button><i class="fa-solid fa-xmark"></i></button>
+          </li>
+          <li>
+            Oranges
+            <button><i class="fa-solid fa-xmark"></i></button>
+          </li>
+          <li>
+            Lemons
+            <button><i class="fa-solid fa-xmark"></i></button>
+          </li> -->
+        </ul>
+        <br />
+        <hr />
+        <br />
+        <button id="clear">Clear All</button>
+      </main>
+    </div>
+
+    <script src="./script1.js"></script>
+  </body>
+</html>
